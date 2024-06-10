@@ -2,15 +2,7 @@
 
 Dies ist eine Markdown-Datei, die den HTML-Code und JavaScript-Funktionalitäten für einen einfachen E-Shop erklärt.
 
-## HTML-Struktur
-- `<!DOCTYPE html>` definiert den Dokumenttyp und die HTML-Version.
-- `<html lang="de">` gibt die Sprache des Dokuments an.
-- Der `<head>`-Abschnitt enthält Metadaten und Styling-Informationen.
-- Der `<body>`-Abschnitt enthält den sichtbaren Inhalt der Webseite.
-
-## CSS-Styling
-- Die Styles definieren das Erscheinungsbild der Seite: Schriftart, Containerlayout, Menü, Inhaltsbereich, Produkte, Warenkorb usw.
-
+aren Inhalt der Webseite.
 ## JavaScript
 - Die `showCategory(category)`-Funktion zeigt Produkte einer bestimmten Kategorie an, wenn eine Kategorie aus dem Menü ausgewählt wird.
 - Die `addToCart(category, index)`-Funktion fügt ein Produkt zum Warenkorb hinzu, wenn auf den "In den Warenkorb" Button geklickt wird.
