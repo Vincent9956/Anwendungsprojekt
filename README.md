@@ -1,8 +1,4 @@
 # E-Shop
-
-Dies ist eine Markdown-Datei, die den HTML-Code und JavaScript-Funktionalitäten für einen einfachen E-Shop erklärt.
-
-aren Inhalt der Webseite.
 ## JavaScript
 - Die `showCategory(category)`-Funktion zeigt Produkte einer bestimmten Kategorie an, wenn eine Kategorie aus dem Menü ausgewählt wird.
 - Die `addToCart(category, index)`-Funktion fügt ein Produkt zum Warenkorb hinzu, wenn auf den "In den Warenkorb" Button geklickt wird.
