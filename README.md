@@ -23,25 +23,12 @@ Die `generateOffer()`-Funktion spielt eine zentrale Rolle im E-Shop, indem sie d
 
 7. **Aktualisierung der Angebotsliste im lokalen Speicher**: Das Angebot wird der Liste aller Angebote hinzugefügt, die bereits im lokalen Speicher gespeichert sind. Dadurch wird ein Verlauf von Angeboten erstellt, auf den der Benutzer zugreifen kann.
 
-### Lokaler Speicher
-Der lokale Speicher des Browsers wird verwendet, um Angebote zu speichern, sodass Benutzer später darauf zugreifen können. Hier sind einige wichtige Punkte zum lokalen Speicher:
-
-- **Persistentes Speichern von Daten**: Der lokale Speicher ermöglicht es, Daten über mehrere Sitzungen hinweg zu speichern, ohne dass sie verloren gehen, wenn die Seite neu geladen oder geschlossen wird.
-
-- **Begrenzter Speicherplatz**: Der lokale Speicher hat jedoch einen begrenzten Speicherplatz, der von Browser zu Browser variieren kann. Daher ist es wichtig, die Daten entsprechend zu verwalten und gegebenenfalls zu bereinigen, um Speicherplatzprobleme zu vermeiden.
-
-- **Sicherheit**: Daten im lokalen Speicher sind nur für die Domain verfügbar, von der aus sie gespeichert wurden. Dies stellt sicher, dass sensible Daten nicht von anderen Websites abgerufen werden können.
-
 ### Initialisierung
 Nachdem die `generateOffer()`-Funktion definiert wurde, werden die Produkte aus der Kategorie "Haushalt" auf der Seite initialisiert, indem die Funktion `showCategory('Haushalt')` aufgerufen wird. Dadurch werden dem Benutzer beim Laden der Seite sofort Produkte aus dieser Kategorie angezeigt.
 
 ## Daten
 - Eine JavaScript-Objektvariable `products` enthält die verschiedenen Produktkategorien und ihre Preise.
 - Eine leere Array-Variable `cart` dient zur Speicherung der Produkte im Warenkorb.
-
-## Lokaler Speicher
-- Das generierte Angebot wird im lokalen Speicher des Browsers gespeichert.
-- Beim Generieren eines Angebots werden Angebotsnummer, Datum, Gültigkeitsdauer, Produktinformationen und Gesamtpreis gespeichert.
 
 ## Initialisierung
 - Die Seite wird mit Produkten aus der Kategorie "Haushalt" initialisiert.
