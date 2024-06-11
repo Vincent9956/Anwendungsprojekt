@@ -1,28 +1,10 @@
 const products = {
     Haushalt: [
-        { name: 'Mixer', price: 5.99 },
-        { name: 'Grill', price: 19.99 },
-        { name: 'Waschmaschine', price: 69.99 },
-        { name: 'Staubsauger', price: 399.99 },
+        { name: 'Lösung 1:', price: 5.99 },
+        { name: 'Lösung 2:', price: 19.99 },
+        { name: 'Lösung 3:', price: 69.99 },
+        { name: 'Lösung 4:', price: 399.99 },
     ],
-    Spielzeug: [
-        { name: 'Legoset', price: 7.49 },
-        { name: 'Spielzeugauto', price: 29.99 },
-        { name: 'Fußball', price: 89.99 },
-        { name: 'Rutsche', price: 599.99 },
-    ],
-    Technik: [
-        { name: 'SD-Karte', price: 9.99 },
-        { name: 'CPU-Lüfter', price: 39.99 },
-        { name: 'Tastatur (Mechanisch)', price: 149.99 },
-        { name: 'Smartphone', price: 999.99 },
-    ],
-    Wohnen: [
-        { name: 'Kissen', price: 11.99 },
-        { name: 'Lampe', price: 49.99 },
-        { name: 'Hocker', price: 199.99 },
-        { name: 'Sofa', price: 899.99 },
-    ]
 };
 
 let cart = [];
@@ -35,6 +17,7 @@ function showCategory(category) {
         productList.innerHTML += `
             <div class="product">
                 <h3>${product.name}</h3>
+                <p> Die ${product.name} umfasst XY </p>
                 <p>Preis: $${product.price.toFixed(2)}</p>
                 <button onclick="addToCart('${category}', ${index})">In den Warenkorb</button>
             </div>
